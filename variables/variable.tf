@@ -19,3 +19,8 @@ output "print_age" {
 output "print_map" {
   value = var.map_test
 }
+
+#access a particular value in map
+output "map_particular" {
+  value = var.map_test["x"]
+}
