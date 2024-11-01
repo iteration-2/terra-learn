@@ -5,8 +5,10 @@ variable "age" {
 }
 
 variable "map_test" {
-  x = 10
-  y = 20
+  default = {
+    x = 10
+    y = 32
+  }
 }
 
 #Print a variable
