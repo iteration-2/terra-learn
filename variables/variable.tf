@@ -1,7 +1,7 @@
 
 #Declare a Variable
 variable "age" {
-  default = 10
+  default = 24
 }
 
 variable "map_test" {
