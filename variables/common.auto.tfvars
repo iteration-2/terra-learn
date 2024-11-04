@@ -1,1 +1,1 @@
-type = e-commerce
+type = "e-commerce"
