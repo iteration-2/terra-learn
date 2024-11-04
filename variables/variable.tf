@@ -24,3 +24,9 @@ output "print_map" {
 output "map_particular" {
   value = var.map_test["x"]
 }
+
+#access from .tfvars
+variable "type" {}
+output "type-access" {
+  value = var.type
+}
