@@ -1,7 +1,7 @@
 resource "aws_instance" "expense-project" {
-  for_each = each.value["instance_type"]
+  for_each = var.instance_type
   ami = var.ami
-  instance_type = var.instance_type
+  instance_type = each.value["instance_type"]
   vpc_security_group_ids = var.security_groups
 
   tags = {
